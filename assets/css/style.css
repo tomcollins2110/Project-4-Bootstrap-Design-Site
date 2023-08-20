@@ -67,9 +67,12 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    overflow: hidden;
+    transition: transform 0.7s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .name {
@@ -95,11 +98,16 @@ header {
 
 .menucontainer {
     font-size: 0;
+    background-color: black;
 }
 
 #nav li {
     font-size: 14px;
     padding: 0;
+    border: 2px;
+    border-radius: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 #nav {
@@ -151,11 +159,11 @@ header {
     background-color: #9b59b6;
 }
 
-.ui-menu-color-start {
-    background-color: #053df7;
+.ui-menu-color-download {
+    background-color: #a72525;
 }
 
-.ui-menu-color-download {
+.ui-menu-color-start {
     background-color: #525252;
 }
 
@@ -167,5 +175,37 @@ header {
 /* __________ footer __________ */
 
 footer {
-    background-color: #31312f;
-  }
+    background-color: #969688;
+}
+
+/* __________ form __________ */
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.col-form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 100%;
+}
+
+.form-check-input {
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+form {
+    margin: 20px;
+    max-width: 500px;
+}
