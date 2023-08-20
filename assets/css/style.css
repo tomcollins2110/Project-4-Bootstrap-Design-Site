@@ -27,10 +27,17 @@ h4 {
     justify-content: center; 
     align-items: center; 
     height: 100vh; 
-    background-image: url(../images/design10.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+
+@media (max-width: 768px) {
+    /* Adjust background-size for small screens */
+    .main-content {
+        background-size: cover;
+    }
 }
 
 .content {
@@ -55,7 +62,7 @@ header {
 }
 
 .logo {
-    background: url("../images/sky.jpeg.jpg");
+    background: url("../images/sky.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -160,5 +167,5 @@ header {
 /* __________ footer __________ */
 
 footer {
-    background-color: #deded5;
+    background-color: #31312f;
   }
