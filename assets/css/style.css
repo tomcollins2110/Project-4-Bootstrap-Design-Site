@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: Bebas Neue;
+    color: white;
+    background-image: url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* __________ Stickyheader __________ */
+
+.sticky-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.1));
+    color: #fff;
+    padding: 10px 0;
+    z-index: 1000;
+    display: flex; 
+    align-items: center;
+}
+
+.sticky-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-header nav li {
+    margin: 0 20px;
+}
+
+.sticky-header nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sticky-header nav a:hover {
+    border: 2px solid;
+    background-color: white;
+}
+
+/* __________ h elements __________ */
+
+h2 {
+    letter-spacing: 1px; 
+}
+
+h4 {
+    letter-spacing: 2px; 
+}
+
+/* __________ ### __________ */
