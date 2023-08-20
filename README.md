@@ -1,19 +1,15 @@
-Welcome,
+M Studios Website.
 
-This is the 
+This is a website for a design studio.
 
+## Introduction
 
-## Introduction section.
+The site has serveral features including:
 
-To 
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+1. Basic Bootstrap elements used for the menu, the footer and
+the contact form.
+2. More interactive Bootstrap elements such as the photo carosel.
+3. Media queries for the images.
 
 ---
 
