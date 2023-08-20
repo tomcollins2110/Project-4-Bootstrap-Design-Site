@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
     margin: 0;
     font-family: Bebas Neue;
@@ -6,46 +8,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-/* __________ Stickyheader __________ */
-
-.sticky-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 50px;
-    width: 100%;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.1));
-    color: #fff;
-    padding: 10px 0;
-    z-index: 1000;
-    display: flex; 
-    align-items: center;
-}
-
-.sticky-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sticky-header nav li {
-    margin: 0 20px;
-}
-
-.sticky-header nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.sticky-header nav a:hover {
-    border: 2px solid;
-    background-color: white;
 }
 
 /* __________ h elements __________ */
@@ -58,4 +20,145 @@ h4 {
     letter-spacing: 2px; 
 }
 
-/* __________ ### __________ */
+/* __________ containers __________ */
+
+.main-content {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-image: url(../images/design10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.content {
+    margin-left: 50px;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.1));
+    width: 50%;
+    max-width: 800px; 
+    padding: 20px; 
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+/* __________ header and menu __________ */
+
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/sky.jpeg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #fff;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+
+#nav {
+    margin: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 120px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* __________ colors __________ */
+
+.bg-color-name-title {
+    background-color: #676767;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-start {
+    background-color: #053df7;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
+
+/* __________ footer __________ */
+
+footer {
+    background-color: #deded5;
+  }
