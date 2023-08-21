@@ -187,6 +187,8 @@ header {
 
 footer {
     background-color: #969688;
+    padding-top: 25px;
+    margin: 0;
 }
 
 /* __________ form __________ */
@@ -229,3 +231,19 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.social-icons i {
+    margin-right: 10px;
+}
+
