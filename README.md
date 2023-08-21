@@ -33,6 +33,14 @@ The site is mobile friendly and sits neatly when viewed on a smaller screen.
 
 ## Testing
 
+![htmltest](https://github.com/tomcollins2110/Project-4-Bootstrap-Design-Site/assets/104827144/4b105654-039d-4468-97fc-5efd378a4716)
+
+The site passes the html validator with no issues.
+
+It passes similarly through the css validator also.
+
+![csstest](https://github.com/tomcollins2110/Project-4-Bootstrap-Design-Site/assets/104827144/0813a3a3-78a4-4a45-aea5-8cd4ff4c70a7)
+
 ## Deployment 
 
 The site is deployed through github pages.
