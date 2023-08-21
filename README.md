@@ -4,21 +4,13 @@
 
 This is a website for a design studio offering classes.
 
-## Introduction
+## Features
 
 The site has serveral features including:
 
-1. Basic Bootstrap elements used for the menu, the footer and
-the contact form.
-2. More interactive Bootstrap elements such as the photo carosel.
-3. Media queries for the images.
-
-## Features 
-
-The site has serveral features including:
-
-1. Bootstrap elements.
-2. Responsive mobile first design with edia queries for the images and css .
+1. Bootstrap layout elements.
+2. Interactive Bootstrap elements such as the photo carosel.
+3. Mobile first design with media queries for the images and divs. 
 
 The bootstrap elements used:
 
