@@ -45,11 +45,18 @@ It passes similarly through the css validator also.
 
 The site is deployed through github pages.
 
-
-
 ## Credit 
 
 The site used code snippets from various sources.
 
 Notable mentions for key features:
+
+https://getbootstrap.com/docs/4.2/components/forms/
+https://getbootstrap.com/docs/4.2/layout/grid/
+https://getbootstrap.com/docs/4.2/components/carousel/
+
+https://learn.codeinstitute.net/ci_program/diplomainsoftwaredevelopmentadvancedfrontend
+https://www.youtube.com/watch?v=T0JahupVmyk&t=282s
+
+
 
